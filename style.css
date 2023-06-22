@@ -1,0 +1,383 @@
+nav{
+    display: flex;
+}
+
+
+.max{
+    height: 100px;
+    width: 100px;
+}
+.a{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#a1,#a3,#a5,#a7{
+    position: relative;
+    top: 100px;
+}
+
+.b{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#b1,#b3,#b5,#b7{
+    position: relative;
+    top: 100px;
+}
+
+.c{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+#c1,#c3,#c5,#c7{
+    position: relative;
+    top: 100px;
+}
+
+.d{
+    height: 100px;
+    width:100px;
+    background-color: black;
+}
+
+#d1,#d3,#d5,#d7{
+    position: relative;
+    top: 100px;
+}
+
+body{
+    border: 2px solid black;
+    height: 800px;
+    width: 800px;
+}
+#chessw{
+    position: absolute;
+}
+#ele{
+    position: absolute;
+    top: -580px;
+    left: 22px;
+}
+#ele1{
+    position: absolute;
+    top: -580px;
+    left: 122px;
+}
+#ele2{
+    position: absolute;
+    top: -580px;
+    left: 224px;
+}
+#ele3{
+    position: absolute;
+    top: -580px;
+    left: 326px;
+}
+#ele4{
+    position: absolute;
+    top: -580px;
+    left: 424px;
+}
+#ele5{
+    position: absolute;
+    top: -580px;
+    left: 524px;
+}
+#ele6{
+    position: absolute;
+    top: -580px;
+    left: 624px;
+}
+#ele7{
+    position: absolute;
+    top: -580px;
+    left: 728px;
+}
+#ele:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele1:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele2:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele3:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele4:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele5:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele6:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#ele7:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#elep{
+    position: absolute;
+    top: -680px;
+    left: 24px;
+}
+#elep:hover{
+    transform: translateY(500px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#elep1{
+    position: absolute;
+    top: -680px;
+    left: 725px;
+}
+#elep1:hover{
+    transform: translateY(500px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#horw{
+    position: absolute;
+    top: -680px;
+    left: 120px;
+}
+#horw:hover{
+    transform: translateY(200px) translateX(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#horw1{
+    position: absolute;
+    top: -680px;
+    left: 625px;
+}
+#horw1:hover{
+    transform: translateY(200px) translateX(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#camw{
+    position: absolute;
+    top: -680px;
+    left: 225px;
+}
+#camw:hover{
+    transform: translateY(200px) translateX(200px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#camw1{
+    position: absolute;
+    top: -680px;
+    left: 525px;
+}
+#camw1:hover{
+    transform: translateY(200px) translateX(-200px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#quew{
+    position: absolute;
+    top: -680px;
+    left: 325px;
+}
+#quew:hover{
+    transform: translateY(300px) translateX(-300px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#kingw{
+    position: absolute;
+    top: -680px;
+    left: 425px;
+}
+#kingw:hover{
+    transform: translateY(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#chessb{
+    position: absolute;
+}
+#sol{
+    position: absolute;
+    top: -80px;
+    left: 22px;
+}
+#sol1{
+    position: absolute;
+    top: -80px;
+    left: 122px;
+}
+#sol2{
+    position: absolute;
+    top: -80px;
+    left: 224px;
+}
+#sol3{
+    position: absolute;
+    top: -80px;
+    left: 326px;
+}
+#sol4{
+    position: absolute;
+    top: -80px;
+    left: 424px;
+}
+#sol5{
+    position: absolute;
+    top: -80px;
+    left: 524px;
+}
+#sol6{
+    position: absolute;
+    top: -80px;
+    left: 624px;
+}
+#sol7{
+    position: absolute;
+    top: -80px;
+    left: 728px;
+}
+#sol:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol1:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol2:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol3:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol4:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol5:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol6:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#sol7:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#eleb{
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+#eleb:hover{
+    transform: translateY(-500px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#eleb1{
+    position: absolute;
+    top: 20px;
+    left: 722px;
+}
+#eleb1:hover{
+    transform: translateY(-500px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#horb{
+    position: absolute;
+    top: 20px;
+    left: 122px;
+}
+#horb:hover{
+    transform: translateY(-200px) translateX(100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#horb1{
+    position: absolute;
+    top: 20px;
+    left: 622px;
+}
+#horb1:hover{
+    transform: translateY(-200px) translateX(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#camb{
+    position: absolute;
+    top: 20px;
+    left: 222px;
+}
+#camb:hover{
+    transform: translateY(-200px) translateX(-200px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#camb1{
+    position: absolute;
+    top: 20px;
+    left: 522px;
+}
+#camb1:hover{
+    transform: translateY(-200px) translateX(-200px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#queb{
+    position: absolute;
+    top: 20px;
+    left: 322px;
+}
+#queb:hover{
+    transform: translateY(-300px) translateX(-300px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#kingb{
+    position: absolute;
+    top: 20px;
+    left: 422px;
+}
+#kingb:hover{
+    transform: translateY(-100px);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
